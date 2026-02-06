@@ -142,3 +142,42 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants {
+  margin-top: 12px;
+}
+
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 600;
+}
+
+.participants-list {
+  list-style: disc;
+  margin-left: 20px;
+  padding-left: 0;
+  display: block;
+}
+
+.participants-list li {
+  margin: 6px 0;
+  padding: 6px 10px;
+  background: linear-gradient(180deg, #ffffff 0%, #f3f6ff 100%);
+  border: 1px solid #e0e7ff;
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 14px;
+  color: #1a237e;
+  box-shadow: 0 1px 0 rgba(26,35,126,0.05);
+}
+
+/* small muted text for empty state */
+.participants-list li.no-participants {
+  background: transparent;
+  border: none;
+  color: #777;
+  font-style: italic;
+  display: list-item;
+}
